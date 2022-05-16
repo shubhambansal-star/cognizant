@@ -2,6 +2,6 @@ CREATE TABLE dividend(
     exchange1 STRING,
     symbol1 STRING,
     dat STRING,
-    dividend FLOAT
+    divi FLOAT
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t';
