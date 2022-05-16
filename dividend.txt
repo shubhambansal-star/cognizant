@@ -1,4 +1,4 @@
-CREATE TABLE dividend(
+CREATE TABLE dividen(
     exchange1 STRING,
     symbol1 STRING,
     dat STRING,
