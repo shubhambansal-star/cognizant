@@ -1,0 +1,12 @@
+CREATE TABLE stocks(
+    exchange1 STRING,
+    symbol1 STRING,
+    dat STRING,
+    open_price FLOAT,
+    high_price FLOAT,
+    low_price FLOAT,
+    close_price FLOAT,
+    volume INT,
+    adj_close FLOAT
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t';
